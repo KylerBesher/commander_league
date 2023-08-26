@@ -1,11 +1,13 @@
 ---
 title: 'Community Standards'
-image: /img/jumbotrons/grand_arbiter.jpg
+image: /img/jumbotrons/avacyn.jpg
+header: My Header
+subheader: subhead
 
 sections:
-  - name: 'Introduction'
+  - name: ''
     text: >-
-      At [League Name], our ethos revolves around cherishing the spirit of Magic: The Gathering. Our community standards are a testament to this belief, crafted meticulously to ensure that every Planeswalker stepping into [Shop Name] feels appreciated, valued, and enthralled by honest competition.
+      At [Guild Name], our ethos revolves around cherishing the spirit of Magic: The Gathering. Our community standards are a testament to this belief, crafted meticulously to ensure that every Planeswalker stepping into [Shop Name] feels appreciated, valued, and enthralled by honest competition.
 
   - name: 'Gameplay Guidelines'
     sub_sections:
@@ -79,8 +81,8 @@ sections:
       - name: 'Severe or Repeated Violations - Ban'
         points:
           - header: 'Protecting the Community'
-            body: 'Gross misconduct or repeated violations may lead to an indefinite ban from [League Name] events. We reserve this action to ensure the safety and enjoyment of all participants.'
+            body: 'Gross misconduct or repeated violations may lead to an indefinite ban from [Guild Name] events. We reserve this action to ensure the safety and enjoyment of all participants.'
       - name: 'Note'
         points:
-          - body: 'The consequences outlined above serve as general guidelines. [League Name] maintains the right to determine appropriate actions based on the severity and nature of the offense.'
+          - body: 'The consequences outlined above serve as general guidelines. [Guild Name] maintains the right to determine appropriate actions based on the severity and nature of the offense.'
 ---

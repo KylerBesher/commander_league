@@ -2,7 +2,7 @@
 title: Home
 header: Command the Spotlight!
 subheader: Discover the Magic. Challenge the Odds.
-image: /img/jumbotrons/CMM_1080p_en.jpg
+image: /img/jumbotrons/blank_CMM_1080p_en.jpg
 blurb:
     heading: Our Story & Vision
     image: /img/formats/wandering_troubadour.jpg
@@ -18,10 +18,10 @@ intro:
 products:
     - image: img/formats/thassas_oracle.jpg
       header: Competitive Play
-      text: At [League Name], the pinnacle of strategic prowess shines through in our highly competitive EDH pods. Adhering strictly to the original banlist, players can immerse themselves in pure, unbridled MTG gameplay. Here, you are free to harness the full potential of your deck, relying on skill and strategy to outwit your opponents in the ultimate test of MTG acumen.
+      text: At [Guild Name], the pinnacle of strategic prowess shines through in our highly competitive EDH pods. Adhering strictly to the original banlist, players can immerse themselves in pure, unbridled MTG gameplay. Here, you are free to harness the full potential of your deck, relying on skill and strategy to outwit your opponents in the ultimate test of MTG acumen.
     - image: img/formats/fblthp.jpg
       header: Casual Play
-      text: Dive into a relaxed yet captivating EDH experience at [League Name]. Our casual mode, enriched with an extended banlist and conduct guidelines, ensures a game that's engaging and diverse. Curbing overly dominant combos, this mode encourages creativity and a broader exploration of deck possibilities. Join us in this laid-back arena where fun, strategy, and community intertwine.
+      text: Dive into a relaxed yet captivating EDH experience at [Guild Name]. Our casual mode, enriched with an extended banlist and conduct guidelines, ensures a game that's engaging and diverse. Curbing overly dominant combos, this mode encourages creativity and a broader exploration of deck possibilities. Join us in this laid-back arena where fun, strategy, and community intertwine.
 values:
     heading: Magic Awaits Every Week
     image: img/formats/join_the_dance.jpg

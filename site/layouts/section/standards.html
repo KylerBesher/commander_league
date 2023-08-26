@@ -1,46 +1,98 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "header" .Params.header "subheader" .Params.subheader) }}
+
 
 <div class="mw7 center ph3 pt4">
   {{ range $index, $element := .Params.sections }}
   
-  <details class="mb3" open>
-    <summary class="ph4 pointer f3 b">{{ .name }}</summary>
-    <div class="ph4">
-      {{ if .text }}
-      <p class="f6 lh-copy">{{ .text | markdownify }}</p>
-      {{ end }}
-      
-      {{ if .content }}
-      <p class="f5 lh-copy">{{ .content | markdownify }}</p>
-      {{ end }}
-      
-      {{ if .sub_sections }}
-      <div class="pl4">
-        {{ range .sub_sections }}
-        <h3 class="f4 mt3 b">{{ .name }}</h3>
-        <ul>
-          {{ range .points }}
-          <li class="pl3">
-            <h4 class="f6 b mt3">{{ .header }}</h4>
-            
-            {{ if .body }}
-            <p class="f6 lh-copy">{{ .body }}</p>
-            {{ end }}
-            
-            {{ if .linkText }}
-            <a href="{{ .link }}" class="f6 lh-copy primary" target="_blank">{{ .linkText }}</a>
-            {{ end }}
-          </li>
-          {{ end }}
-        </ul>
+  {{ if eq $index 0 }}
+    <div class="mb3">
+      <h2 class="ph4 f3 b">{{ .name }}</h2>
+      <div class="ph4">
+        {{ if .text }}
+        <p class="f6 lh-copy">{{ .text | markdownify }}</p>
         {{ end }}
+        
+        {{ if .content }}
+        <p class="f5 lh-copy">{{ .content | markdownify }}</p>
+        {{ end }}
+        
+        {{ if .sub_sections }}
+        <div class="pl4 ">
+          {{ range .sub_sections }}
+          <h3 class="f4 mt3 b">{{ .name }}</h3>
+          <ul>
+            {{ range .points }}
+            <li class="pl3">
+              <h4 class="f6 b mt3">{{ .header }}</h4>
+              {{ if .list }}
+              <div class="cms">
+                <ul class="f6 ul lh-copy">
+                  {{ range .list }}
+                  <li class="li f6">{{if .header}}<span class="b">{{ .header | markdownify }}:</span>{{end}} <span class="f6">{{.body | markdownify}}</span></li>
+                  {{ end }}
+                </div>
+              {{ end }}
+              {{ if .body }}
+              <p class="f6 lh-copy">{{ .body | markdownify}}</p>
+              {{ end }}
+              {{ if .linkText }}
+              <a href="{{ .link }}" class="f6 lh-copy primary" target="_blank">{{ .linkText }}</a>
+              {{ end }}
+            </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+        {{ end }}
+        
       </div>
-      {{ end }}
-      
     </div>
-  </details>
+  {{ else }}
+    <details class="mb3" open>
+      <summary class="ph4 pointer f3 b">{{ .name }}</summary>
+      <div class="ph4">
+        {{ if .text }}
+        <p class="f6 lh-copy">{{ .text | markdownify }}</p>
+        {{ end }}
+        
+        {{ if .content }}
+        <p class="f5 lh-copy">{{ .content | markdownify }}</p>
+        {{ end }}
+        
+        {{ if .sub_sections }}
+        <div class="pl4 ">
+          {{ range .sub_sections }}
+          <h3 class="f4 mt3 b">{{ .name }}</h3>
+          <ul>
+            {{ range .points }}
+            <li class="pl3">
+              <h4 class="f6 b mt3">{{ .header }}</h4>
+              {{ if .list }}
+              <div class="cms">
+                <ul class="f6 ul lh-copy">
+                  {{ range .list }}
+                  <li class="li f6">{{if .header}}<span class="b">{{ .header | markdownify }}:</span>{{end}} <span class="f6">{{.body | markdownify}}</span></li>
+                  {{ end }}
+                </div>
+              {{ end }}
+              {{ if .body }}
+              <p class="f6 lh-copy">{{ .body | markdownify}}</p>
+              {{ end }}
+              {{ if .linkText }}
+              <a href="{{ .link }}" class="f6 lh-copy primary" target="_blank">{{ .linkText }}</a>
+              {{ end }}
+            </li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+        {{ end }}
+        
+      </div>
+    </details>
+  {{ end }}
   {{ end }}
 </div>
 

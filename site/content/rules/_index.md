@@ -1,20 +1,22 @@
 ---
-title: 'Points and How the League Works'
-image: /img/jumbotrons/league_points.jpg
+title: 'Points and How the Guild Works'
+image: /img/jumbotrons/arcane_endeavor.jpg
+header: Guild Handbook
+subheader: subhead
 layout: /section/standards.html
 sections:
-  - name: 'Introduction'
+  - name: ''
     text: >-
-      Welcome to the [League Name], the nexus where planeswalkers challenge their mettle and bonds of camaraderie are forged. Dive deep into the mechanics of our league, the structure that guides our games, and the point system that rewards strategic prowess and creativity alike.
+      Welcome to the [Guild Name], the nexus where planeswalkers challenge their mettle and bonds of camaraderie are forged. Dive deep into the mechanics of our league, the structure that guides our games, and the point system that rewards strategic prowess and creativity alike.
 
   - name: 'Membership and Registration'
     sub_sections:
-      - name: 'Joining the League'
+      - name: 'Joining the Guild'
         points:
           - header: 'Steps to Register'
             body: 'Venture forth by filling out our online registration form, indicating your deck theme, and remitting the membership fee.'
           - header: 'Membership Duration'
-            body: 'Membership in [League Name] lasts the entire season, ensuring a saga of uninterrupted duels and continuous chances to ascend the leaderboards.'
+            body: 'Membership in [Guild Name] lasts the entire season, ensuring a saga of uninterrupted duels and continuous chances to ascend the leaderboards.'
           - header: 'Privileges of Registration'
             body: 'Enlisted members enjoy exclusivity to league tournaments, a quest for the championship title, and tantalizing rewards.'
   - name: 'Deck Construction'
@@ -41,11 +43,11 @@ sections:
           - header: 'Encouraging Diverse Strategies'
             body: "The Casual format puts a check on 2-card infinite combos, ensuring that gameplay isn't abruptly cut short and providing room for varied strategies to flourish. However, loops that necessitate three or more cards are considered fair play, offering players a creative challenge to craft and counter such synergies."
 
-  - name: 'League Format and Structure'
+  - name: 'Guild Format and Structure'
     sub_sections:
-      - name: 'League Design'
+      - name: 'Guild Design'
         points:
-          - header: 'League Blueprint'
+          - header: 'Guild Blueprint'
             body: 'The league adopts a [specific format, e.g., "double-elimination"] design, guaranteeing all contestants multiple opportunities to demonstrate their skill.'
           - header: 'Battle Schedule'
             body: 'Confrontations are convened [frequency, e.g., "every weekend"], offering planeswalkers consistent dueling grounds to earn points and shift rankings.'
@@ -84,9 +86,61 @@ sections:
 
           - header: 'Balanced Weighted Scores'
             body: >-
-              We calculate players' weighted scores by dividing their total points for the month by the number of games they've participated in. This ensures fairness and accounts for varying levels of engagement and points awarded through quests.
+              We calculate players' weighted scores by dividing their total points for the month by the number of games they've participated in. This ensures fairness and accounts for varying levels of engagement and points awarded through duals, quests, and other means.
+      - name: 'Sample Score Breakdowns'
+        points:
+          - header: 'Plater A'
+            list:
+              - header: 'Point Breakdown'
+                body: |
+                  - 12 victory points *(4 wins)*
+                  - 3 knockouts points *(3 knockouts)*
+                  - 6 quest completion points *(6 quests)*
+                  - 2 sportsmanship points *(2 points)*
+                  - 2 participation points *(11 Games Played)*
+              - header: 'Total Points'
+                body: |
+                  12 (victories) + 3 (knockouts) + 6 (quests) + 2 (sportsmanship) + 2 (participation) = 25 points
+              - header: 'Weighted score'
+                body: |
+                  (25) / 11 ≈ 2.27
+          - header: 'Player B'
+            list:
+              - header: 'Point Breakdown'
+                body: |
+                  - 15 victory points *(5 wins)*
+                  - 4 knockouts points *(4 knockouts)*
+                  - 5 quest completion points *(5 quests)*
+                  - 4 sportsmanship points *(4 points)*
+                  - 3 participation points *(14 Games Played)*
+              - header: 'Total Points'
+                body: |
+                  15 (victories) + 4 (knockouts) + 5 (quests) + 4 (sportsmanship) + 3 (participation) = 31 points
+              - header: 'Weighted score'
+                body: |
+                  (31) / 14 ≈ 2.21
+      - name: 'Tie Breakers'
+        points:
+          - header: 'Primary Tie Breaker'
+            body: |
+              In the event of a tie in total points, the player with the **most quest points** earned will be awarded the higher rank. This emphasizes the significance of strategic versatility and the importance of completing challenges over the course of the league.
+              
+          - header: 'Secondary Tie Breaker'
+            body: |
+              If the tie persists after considering quest points, the ranking will be decided based on the **highest ratio of sportsmanship points to total games played**. This ensures players who consistently demonstrate good sportsmanship, regardless of the number of games they've participated in, receive due recognition.
 
-  - name: 'Conclusion and The Path Forward'
-    text: >-
-      As we traverse the intricate tapestry of this season's narrative, our unwavering commitment is to ensure an experience that's both gratifying and inclusive. Anticipate enthralling events on the horizon, and remember: it's not solely about the accumulation of points; it's the chronicle we inscribe and the fraternity we nurture.
+  - name: 'Rewards and Prize Support'
+    sub_sections:
+        - points:
+          - header: 'Reward Determination Date'
+            body: |
+              Rewards are determined on the **last day of the month**. It's the moment of reckoning, where all the strategies, skills, and camaraderie culminate in the crowning of our top planeswalkers.
+
+          - header: 'Prize Support Availability'
+            body: |
+              Prize support will be made available on the **first Friday** of the following month. However, if the last day of the month happens to be a Friday, prize support will instead be available on that Saturday.
+
+          - header: 'Prize Breakdown'
+            body: |
+              Prize breakdowns are determined based on the number of entries. Our aim is to reward excellence and strategic acumen. Thus, the **top 4 players** will be the recipients of our league's prize support. Be sure to check out the standings page to see the current prize payouts.
 ---
