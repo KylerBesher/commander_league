@@ -51,6 +51,7 @@ sections:
   - name: 'Deck Construction'
     sub_sections:
       - name: 'Competitive EDH (cEDH)'
+        id: 'competitive-play'
         points:
           - header: 'True to the Core'
             body: 'Our competitive league adheres strictly to the standard Commander rules and ban list, ensuring a gameplay experience that is both challenging and pure.'
@@ -62,6 +63,7 @@ sections:
             body: 'For the sake of fostering an inclusive environment, cEDH decks should only face off against other cEDH decks, unless all players involved agree to mix the formats.'
 
       - name: 'Casual EDH'
+        id: 'casual-play'
         points:
           - header: 'Building an Inclusive Environment'
             body: 'Casual EDH is designed with inclusivity in mind. This is the arena where both newcomers to the game and seasoned veterans seeking a more relaxed gameplay environment come together. The aim here is fun, exploration, and camaraderie.'

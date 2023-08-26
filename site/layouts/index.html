@@ -2,15 +2,14 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "header" .Params.header "subheader" .Params.subheader) }}
 
-{{ partial "text-and-image" (dict "heading" .Params.blurb.heading  "image" .Params.blurb.image "text" .Params.blurb.text "buttonText" "Read more" "more" .Params.blurb.more  "buttonLink" "/values") }}
+{{ partial "text-and-image" (dict "heading" .Params.blurb.heading  "image" .Params.blurb.image "text" .Params.blurb.text "buttonText" "View Quest Board" "more" .Params.blurb.more  "buttonLink" "/quests") }}
 
 {{ partial "2-up" .Params }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading  "image" .Params.values.image "text" .Params.values.text "buttonText" "Read more"  "buttonLink" "/values") }}
-
-{{ partial "text-and-image" (dict "heading" .Params.join.heading  "image" .Params.join.image "text" .Params.join.text "buttonText" "Read more"  "buttonLink" "/values") }}
+{{ partial "text-and-image" (dict "heading" .Params.values.heading  "image" .Params.values.image "text" .Params.values.text "buttonText" "Guild Etiquette"  "buttonLink" "/etiquette") }}
 
 {{ partial "blog" . }}
 
-<!-- {{ partial "testimonials.html" . }} -->
+{{ partial "text-and-image" (dict "heading" .Params.join.heading  "image" .Params.join.image "text" .Params.join.text "buttonText" "Read more"  "buttonLink" "/values") }}
+
 {{ end }}

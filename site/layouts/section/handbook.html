@@ -64,7 +64,7 @@
         {{ if .sub_sections }}
         <div class="pl4 ">
           {{ range .sub_sections }}
-          <h3 class="f4 mt3 b">{{ .name }}</h3>
+          <h3 {{if .id}} id="{{.id}}" {{end}} class="f4 mt3 b">{{ .name }}</h3>
           <ul>
             {{ range .points }}
             <li class="pl3">

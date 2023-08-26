@@ -1,5 +1,5 @@
 ---
-title: 'Community Standards'
+title: 'Guild Etiquette'
 image: /img/jumbotrons/avacyn.jpg
 header: Guild Etiquette
 subheader: Guidelines for Ethereal Conduct

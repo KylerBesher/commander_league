@@ -6,7 +6,7 @@
     <div class="flex-ns mhn2-ns mb3">
       {{ range .products }}
       <div class="ph2-ns w-50-ns relative"> <!-- Using 'relative' for positioning -->
-          <a href="https://reddit.com" class="db link relative overflow-hidden dim grow"
+          <a href="{{.link}}" class="db link relative overflow-hidden dim grow"
           style="transition: transform 0.1s ease-out; transform: scale(1);" 
           onmouseover="this.style.transform='scale(1.01)';" 
           onmouseout="this.style.transform='scale(1)';">
@@ -23,8 +23,8 @@
       {{ end }}
   </div>
 
-    <div class="tc">
-      <a href="/products" class="btn raise">More About Playstyles</a>
-    </div>
+  <div class="tc mt4">
+    <a href="{{.intro.buttonLink}}" class="btn raise">{{.intro.buttonText}}</a>
+  </div>
   </div>
 </div>
