@@ -9,6 +9,29 @@ sections:
     text: >-
       Welcome to the [Guild Name], the nexus where planeswalkers challenge their mettle and bonds of camaraderie are forged. Dive deep into the mechanics of our league, the structure that guides our games, and the point system that rewards strategic prowess and creativity alike.
 
+
+
+  - name: 'Guild Format and Structure'
+    sub_sections:
+      - name: 'Guild Design'
+        points:
+          - header: 'Guild Schedule'
+            body: >-
+              Gather with fellow planeswalkers for exhilarating battles held regularly every Saturday night. Immerse yourself in the thrill of dueling and seize the opportunity to earn points and ascend the rankings. It's an inviting arena where camaraderie and competition unite!
+          - header: 'Flexibility in Dueling'
+            body: >-
+              We understand that schedules can vary. While the main events are held on Saturday nights, you're not limited to that time. Feel free to engage in matches during the week, as long as a pod of players is formed. This flexibility encourages spontaneous battles and allows participants to engage at their convenience.
+          - header: 'Points System'
+            body: >-
+              Our ranking system is based on points accumulated throughout the month. Each victory contributes to your monthly point total, allowing you to climb the ranks. The more you play, the more points you earn.
+          - header: 'Monthly Leaderboard'
+            body: >-
+              At the end of each month, the top-ranking planeswalkers will be celebrated on the Monthly Leaderboard. This recognizes the skill and dedication of our members, and it also comes with special rewards and recognition within the guild.
+          - header: 'Ranking Calculation'
+            body: >-
+              Your rank is determined by the total points you accumulate from battles during the month. The higher your points, the higher your position on the leaderboard.
+
+
   - name: 'Membership and Registration'
     sub_sections:
       - name: 'Joining the Guild'
@@ -42,15 +65,6 @@ sections:
             linkText: 'Additional Ban List'
           - header: 'Encouraging Diverse Strategies'
             body: "The Casual format puts a check on 2-card infinite combos, ensuring that gameplay isn't abruptly cut short and providing room for varied strategies to flourish. However, loops that necessitate three or more cards are considered fair play, offering players a creative challenge to craft and counter such synergies."
-
-  - name: 'Guild Format and Structure'
-    sub_sections:
-      - name: 'Guild Design'
-        points:
-          - header: 'Guild Blueprint'
-            body: 'The league adopts a [specific format, e.g., "double-elimination"] design, guaranteeing all contestants multiple opportunities to demonstrate their skill.'
-          - header: 'Battle Schedule'
-            body: 'Confrontations are convened [frequency, e.g., "every weekend"], offering planeswalkers consistent dueling grounds to earn points and shift rankings.'
 
   - name: 'Point System'
     sub_sections:

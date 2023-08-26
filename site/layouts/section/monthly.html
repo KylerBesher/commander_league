@@ -1,0 +1,45 @@
+{{ define "main" }} {{ partial "jumbotron" (dict "imageUrl" .Params.image
+"header" .Params.header "subheader" .Params.subheader) }}
+
+<div class="mw7 center ph3 pt4">
+  {{ range $index, $monthlyPage := .Params.monthly_pages }}
+  <div class="mb3">
+    <h2 class="ph4 f3 b">{{ $monthlyPage.month }}</h2>
+    <div class="ph4">
+      <div class="prize-support">
+        <h4>Prize Support</h4>
+        <ul>
+          {{ range $monthlyPage.prize_support }}
+          <li>{{ .prize }} - {{ .description }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="quests cms">
+        <h4>Quests</h4>
+        <ul>
+          {{ range $monthlyPage.quests }}
+          <li>
+            <strong>{{ .quest }} </strong> <em class="f6">({{.points}} points) </em>
+            <p class="f6">{{ .description }}</p>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="leaderboard">
+        <h4>Leaderboard</h4>
+        <ol>
+          {{ range $monthlyPage.leaderboard }}
+          <li>{{ .rank }}. {{ .player }} - {{ .points }} points</li>
+          {{ end }}
+        </ol>
+      </div>
+      <div class="additional-notes">
+        <h4>Additional Notes</h4>
+        <p>{{ $monthlyPage.additional_notes }}</p>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</div>
+
+{{ end }}
