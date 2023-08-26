@@ -1,0 +1,13 @@
+{{- $pagePath := .Get "pagePath" -}}
+{{- $key := .Get "key" -}}
+
+{{- $page := $.Site.GetPage "page" $pagePath -}}
+{{- with $page -}}
+    {{- with index .Params $key -}}
+        {{- . -}}
+    {{- else -}}
+        Key '{{ $key }}' not found in '{{ $pagePath }}'.
+    {{- end -}}
+{{- else -}}
+    Page '{{ $pagePath }}' not found.
+{{- end -}}

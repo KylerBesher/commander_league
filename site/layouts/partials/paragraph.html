@@ -1,0 +1,8 @@
+<div class="bg-grey-1 pv4">
+  <div class="flex-l flex-column mhn1-l ph3 center mw7 ">
+    {{ with .Params.heading }}
+    <h2 class="f2 b lh-title tl mb2">{{ . }}</h2>
+    {{ end }}
+    <p class="w-100 mb0">{{ .text   | markdownify}}</p>
+  </div>
+</div>

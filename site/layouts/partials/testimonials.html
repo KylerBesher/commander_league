@@ -1,0 +1,43 @@
+<section id="testimonials" class="pa4 bg-near-white">
+    <h2 class="tc f2 lh-title">What Our Players Say</h2>
+    <div class="testimonials-container flex flex-wrap justify-center">
+      {{ range (where .Site.RegularPages "Section" "testimonials") }}
+      <div class="testimonial pa3 w-100 dn">
+        <div class="flex items-center justify-start">
+          <div class="flex flex-column mr3 "> <!-- Margin right to give space between the image and quote -->
+            <img
+              src="{{ .Params.image }}"
+              alt="{{ .Params.favoriteCommander }}"
+              class="w-50 br1 pa1 b--black-10" 
+            />
+            <cite class="f7 ttu tracked fs-normal mt2"> <!-- Margin top to give space below the image -->
+              Favorite Commander: {{ .Params.favoriteCommander }}
+            </cite>
+          </div>
+          <blockquote class="f5 lh-copy measure">
+            {{ .Content }}
+            <cite class="f6 ttu tracked fs-normal db mt2"> <!-- Display block and margin top to push the name below the quote -->
+              - {{ .Title }}
+            </cite>
+          </blockquote>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      let testimonials = document.querySelectorAll('.testimonial');
+      if (testimonials.length === 0) return;
+  
+      let current = 0;
+      testimonials[current].classList.remove('dn'); // Display the first testimonial
+  
+      setInterval(function () {
+        testimonials[current].classList.add('dn'); // Hide the current testimonial
+        current = (current + 1) % testimonials.length; // Move to the next one
+        testimonials[current].classList.remove('dn'); // Display the next testimonial
+      }, 5000); // Change every 1.5 seconds
+    });
+  </script>
+  

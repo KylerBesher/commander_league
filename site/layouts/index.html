@@ -1,13 +1,16 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "header" .Params.header "subheader" .Params.subheader) }}
 
-{{ partial "short-text" .Params.blurb}}
+{{ partial "text-and-image" (dict "heading" .Params.blurb.heading  "image" .Params.blurb.image "text" .Params.blurb.text "buttonText" "Read more" "more" .Params.blurb.more  "buttonLink" "/values") }}
 
 {{ partial "2-up" .Params }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "text-and-image" (dict "heading" .Params.values.heading  "image" .Params.values.image "text" .Params.values.text "buttonText" "Read more"  "buttonLink" "/values") }}
+
+{{ partial "text-and-image" (dict "heading" .Params.join.heading  "image" .Params.join.image "text" .Params.join.text "buttonText" "Read more"  "buttonLink" "/values") }}
 
 {{ partial "blog" . }}
 
+{{ partial "testimonials.html" . }}
 {{ end }}
