@@ -9,8 +9,6 @@ sections:
     text: >-
       Welcome to the [Guild Name], the nexus where planeswalkers challenge their mettle and bonds of camaraderie are forged. Dive deep into the mechanics of our league, the structure that guides our games, and the point system that rewards strategic prowess and creativity alike.
 
-
-
   - name: 'Guild Format and Structure'
     sub_sections:
       - name: 'Guild Design'
@@ -31,17 +29,25 @@ sections:
             body: >-
               Your rank is determined by the total points you accumulate from battles during the month. The higher your points, the higher your position on the leaderboard.
 
-
   - name: 'Membership and Registration'
     sub_sections:
       - name: 'Joining the Guild'
         points:
           - header: 'Steps to Register'
             body: 'Venture forth by filling out our online registration form, indicating your deck theme, and remitting the membership fee.'
+          - header: 'Guild dues'
+            body: 'Joining the guild requires a membership fee of $15 per month for the league.'
           - header: 'Membership Duration'
             body: 'Membership in [Guild Name] lasts the entire season, ensuring a saga of uninterrupted duels and continuous chances to ascend the leaderboards.'
-          - header: 'Privileges of Registration'
-            body: 'Enlisted members enjoy exclusivity to league tournaments, a quest for the championship title, and tantalizing rewards.'
+    
+      - name: 'Privileges of Membership'
+        points:
+          - header: 'Earning Points'
+            body: 
+          - header: 'Sleeve Discount'
+            body: 
+          
+          
   - name: 'Deck Construction'
     sub_sections:
       - name: 'Competitive EDH (cEDH)'
@@ -138,14 +144,22 @@ sections:
           - header: 'Primary Tie Breaker'
             body: |
               In the event of a tie in total points, the player with the **most quest points** earned will be awarded the higher rank. This emphasizes the significance of strategic versatility and the importance of completing challenges over the course of the league.
-              
+
           - header: 'Secondary Tie Breaker'
             body: |
               If the tie persists after considering quest points, the ranking will be decided based on the **highest ratio of sportsmanship points to total games played**. This ensures players who consistently demonstrate good sportsmanship, regardless of the number of games they've participated in, receive due recognition.
 
   - name: 'Rewards and Prize Support'
     sub_sections:
-        - points:
+      - points:
+          - header: 'Prize Breakdown'
+            body: |
+              Prize support for the month is determined by the number of entrants and the overall point distribution. The more players who join the fray, the richer the prize pool becomes.
+
+          - header: 'Bonus Raffle'
+            body: |
+              In select months, alongside regular prizes, there will be a special raffle. Each point earned throughout the month will enter you for a chance to win the coveted bonus card.
+
           - header: 'Reward Determination Date'
             body: |
               Rewards are determined on the **last day of the month**. It's the moment of reckoning, where all the strategies, skills, and camaraderie culminate in the crowning of our top planeswalkers.
@@ -153,8 +167,4 @@ sections:
           - header: 'Prize Support Availability'
             body: |
               Prize support will be made available on the **first Friday** of the following month. However, if the last day of the month happens to be a Friday, prize support will instead be available on that Saturday.
-
-          - header: 'Prize Breakdown'
-            body: |
-              Prize breakdowns are determined based on the number of entries. Our aim is to reward excellence and strategic acumen. Thus, the **top 4 players** will be the recipients of our league's prize support. Be sure to check out the standings page to see the current prize payouts.
 ---

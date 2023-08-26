@@ -15,7 +15,7 @@
         </ul>
       </div>
       <div class="quests cms">
-        <h4>Quests</h4>
+        <h4 class="b">Quests:</h4>
         <ul>
           {{ range $monthlyPage.quests }}
           <li>
@@ -40,6 +40,36 @@
     </div>
   </div>
   {{ end }}
+  
+<div id="calendarContainer" class="mv3 center w-100">
+
+  <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ccccff&amp;src=lf4p3g1vb3fi4pro8j5k261ld8%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=fbsbvluqq5crtc3csupgrsne4g%40group.calendar.google.com&amp;color=%23B1365F&amp;src=h906up3lihaihsdhaegvkd6b8k%40group.calendar.google.com&amp;color=%2329527A&amp;src=0jg9v2aajhkati8l23nf53avr8%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FChicago" class="dn db-l center" frameborder="0" marginheight="0" marginwidth="0" style="width:100%;height:calc(80vw / 6 * 3)"></iframe>
+  
+  
+  <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ccccff&amp;src=lf4p3g1vb3fi4pro8j5k261ld8%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=fbsbvluqq5crtc3csupgrsne4g%40group.calendar.google.com&amp;color=%23B1365F&amp;src=h906up3lihaihsdhaegvkd6b8k%40group.calendar.google.com&amp;color=%2329527A&amp;src=0jg9v2aajhkati8l23nf53avr8%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FChicago" class="dn-l center" frameborder="0" width="100%" height="600" frameborder="0" pointer-events="auto"></iframe>
+  
+  
+  </div>
+  
+  {{/*
+  <style>
+  #calendarContainer iframe{
+    pointer-events:none;
+  }
+  #calendarContainer iframe.clicked{
+    pointer-events: auto;
+  }
+  </style>
+  
+  <script>
+  $('#calendarContainer')
+    .click(function(){
+        $(this).find('iframe').addClass('clicked')})
+    .mouseleave(function(){
+        $(this).find('iframe').removeClass('clicked')}
+      );
+  </script> */}}
+  
 </div>
 
 {{ end }}
