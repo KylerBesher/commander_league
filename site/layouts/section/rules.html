@@ -26,7 +26,16 @@
             <h4 class="f6 b mt3">{{ .header }}</h4>
             
             {{ if .body }}
-            <p class="f6 lh-copy">{{ .body }}</p>
+            <p class="f6 lh-copy">{{ .body | markdownify}}</p>
+            {{ end }}
+            {{ if .list }}
+            <div class="cms">
+
+              <ul class="f6 ul lh-copy">
+                {{ range .list }}
+                <li class="li"><span class="b">{{ .header }}:</span> {{.body}}</li>
+                {{ end }}
+              </div>
             {{ end }}
             
             {{ if .linkText }}

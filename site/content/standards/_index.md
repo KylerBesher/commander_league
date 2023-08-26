@@ -7,30 +7,6 @@ sections:
     text: >-
       At [League Name], our ethos revolves around cherishing the spirit of Magic: The Gathering. Our community standards are a testament to this belief, crafted meticulously to ensure that every Planeswalker stepping into [Shop Name] feels appreciated, valued, and enthralled by honest competition.
 
-  - name: 'Deck Construction'
-    sub_sections:
-      - name: 'Competitive EDH (cEDH)'
-        points:
-          - header: 'True to the Core'
-            body: 'Our competitive league adheres strictly to the standard Commander rules and ban list, ensuring a gameplay experience that is both challenging and pure.'
-            link: https://magic.wizards.com/en/banned-restricted-list
-            linkText: 'Official Ban List'
-          - header: 'All-Out Warfare'
-            body: 'In cEDH, there are no holds barred. The spirit of competition reigns supreme, meaning players can unleash their most optimized and fierce decks without reservation. Every strategy, tactic, and card that fits within the official rulebook is fair game.'
-          - header: 'Consensual Aggression'
-            body: 'For the sake of fostering an inclusive environment, cEDH decks should only face off against other cEDH decks, unless all players involved agree to mix the formats.'
-
-      - name: 'Casual EDH'
-        points:
-          - header: 'Building an Inclusive Environment'
-            body: 'Casual EDH is designed with inclusivity in mind. This is the arena where both newcomers to the game and seasoned veterans seeking a more relaxed gameplay environment come together. The aim here is fun, exploration, and camaraderie.'
-          - header: 'Additional Ban List'
-            body: "We've introduced an extra set of card bans in this format. This isn't about stifling creativity but ensuring that all participants can have a genuinely enjoyable experience. Cards that grant excessive advantages, create high consistency, or are deemed 'fun spoilers' find a place on this list."
-            link: https://archidekt.com/decks/5236616/commander_league_banlist
-            linkText: 'Additional Ban List'
-          - header: 'Encouraging Diverse Strategies'
-            body: "The Casual format puts a check on 2-card infinite combos, ensuring that gameplay isn't abruptly cut short and providing room for varied strategies to flourish. However, loops that necessitate three or more cards are considered fair play, offering players a creative challenge to craft and counter such synergies."
-
   - name: 'Gameplay Guidelines'
     sub_sections:
       - name: 'Board State Representation'
