@@ -51,6 +51,10 @@
 .order-8 { order: 8; }
 .order-last { order: 99999; }
 
+.flex-row-reverse { flex-direction: row-reverse; }
+.flex-column-reverse { flex-direction: column-reverse; }
+
+
 @media (--breakpoint-not-small) {
   .flex-ns { display: flex; }
   .inline-flex-ns { display: inline-flex; }

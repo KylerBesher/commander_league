@@ -1,8 +1,8 @@
 ---
 title: 'Community Standards'
 image: /img/jumbotrons/avacyn.jpg
-header: My Header
-subheader: subhead
+header: Guild Etiquette
+subheader: Guidelines for Ethereal Conduct
 
 sections:
   - name: ''
@@ -14,26 +14,24 @@ sections:
       - name: 'Board State Representation'
         points:
           - header: 'Life Tracking'
-            body: "Players should track life totals using a transparent and unambiguous method. Pen and paper are recommended as they provide a history of changes, allowing for easy verification. It's crucial to openly communicate with your opponent about life changes, and players should periodically cross-check totals to ensure consistency."
+            body: "Players should track life totals using a transparent and unambiguous method. Use pen and paper for a history of changes, allowing easy verification. Communicate openly with opponents about life changes and periodically cross-check totals for consistency."
+          - header: 'Board Organization'
+            body: 'Maintain a clear and organized board state. Group permanents separately for quick game state assessment.'
           - header: 'Token Representation'
-            body: 'Tokens should be represented by suitable markers or placeholders. Whether using official token cards, card-sized indicators, or distinct objects, they must clearly depict the type, power/toughness, and any status (e.g., tapped/untapped) or effects.'
+            body: 'Use suitable markers for tokens. Official token cards, card-sized indicators, or distinct objects are acceptable, showing type, power/toughness, and any status/effects.'
+          
           - header: 'Commander Placement'
-            body: "When your commander isn't in play, place it distinctly outside your main play mat area, such as above your deck or next to your life total tracker. This distinction ensures all players know its current status."
-          - header: 'Commander Tax Tracking'
-            body: "Use visible methods like dice or written markers to indicate the additional mana cost (tax) required for recasting a commander. Update this tax marker consistently upon each recast and ensure it's prominently visible to all players."
-
-      - name: 'Gameplay Integrity and Best Practices'
+            body: "When your commander isn't in play, place it outside the main play mat area. This distinction ensures all players know its status. Use visible methods like dice to track additional mana cost (tax) for recasting."
+      - name: 'Integrity & Best Practices'
         points:
           - header: 'Deck Handling & Cutting'
-            body: 'After shuffling your deck, present it to your opponent to cut. The opponent may choose to cut or shuffle the deck lightly. This is a trust-building exercise and a method to ensure fairness in deck randomization.'
-          - header: 'Board Organization'
-            body: 'Maintain a clear and organized board state. Group creatures, artifacts, enchantments, and other permanents separately so both players can quickly assess the state of the game.'
+            body: 'After shuffling, present your deck to opponents to cut. Opponents may cut or shuffle lightly. This builds trust and ensures fair deck randomization.'
           - header: 'Missed Triggers'
-            body: "If a player forgets a trigger, it's considered missed. For fairness, if the game has progressed beyond the point where the trigger should've been applied, it cannot be retroactively added. The only exception is if all involved players unanimously agree to allow it."
+            body: "Missed triggers can't be retroactively added if game progressed beyond their point. Exceptions if players unanimously agree."
           - header: 'Taking Back Moves'
-            body: "Actions in the game are considered final. To prevent misunderstandings and misplays, players are encouraged to verbally communicate their intentions before executing a move. Using phrases like 'I'm considering...' or 'My intention is to...' provides clarity and minimizes potential disputes."
+            body: "Actions are final. Verbally communicate intentions before moves for clarity. Phrases like 'I'm considering...' provide clarity."
           - header: 'Game Discrepancies'
-            body: "Should there be any dispute or confusion regarding the game state, turn order, or any actions taken, it's imperative to approach the matter calmly. The primary goal should be to revert to the most recent mutually agreed-upon state. If players can't come to a consensus, they should seek an impartial ruling from a designated referee or league official."
+            body: "Resolve disputes calmly. Revert to most recent agreed state. Seek impartial ruling if consensus can't be reached."
 
       - name: 'Player Conduct'
         points:

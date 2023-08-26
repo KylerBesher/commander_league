@@ -1,18 +1,22 @@
 ---
 title: 'Points and How the Guild Works'
 image: /img/jumbotrons/lotus.jpg
-Header: Monthly Leaderboard
-Subheader: Discover Prizes, Bonus Points, and Your Current Rank
+Header: Quest Board
+Subheader: Stay up to date on the latest quests, prizes, and announcements
 layout: /section/standards.html
 monthly_pages:
-  - month: August 2023
+  - month: September 2023
     prize_support:
-      - prize: Saruman Of Many Colors
-        description: Awarded to the top performer of the month.
-      - prize: Epic Item
-        description: Awarded to the runner-up.
-      - prize: Rare Item
-        description: Given to the third-place participant.
+
+      - level: Epic
+        image: /img/loot/saruman.jpg
+        prize: Saruman of Many Colors
+        description: Unleash the power of Saruman of Many Colors. This Game Day Promo prize awaits one valiant challenger.
+      - level: Rare
+        image: /img/loot/playmat.jpg
+        prize: Playmat
+        description: Elevate your dueling experience with a choice of playmat from our shop inventory. Command the battlefield in style and show your opponents you mean business.
+
     quests:
       - quest: Plaguebearer
         points: 5
@@ -50,7 +54,5 @@ monthly_pages:
       - rank: 3
         player: Player3
         points: 80
-    additional_notes: |
-      Remember to submit your quest results by the end of the month. Good luck, adventurers!
 ---
 
